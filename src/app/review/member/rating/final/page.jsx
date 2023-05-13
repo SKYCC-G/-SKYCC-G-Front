@@ -35,7 +35,7 @@ export default function Final() {
   return (
     <>
       <div>
-        <ReturnBar link="/review/detail/rating" text="팀플 후기 보내기" />
+        <ReturnBar link="/member/rating" text="팀플 후기 보내기" />
         <div className="h-[50px]"></div>
         <h1 className="font-semibold text-[26px]">작성한 후기</h1>
         <div>
