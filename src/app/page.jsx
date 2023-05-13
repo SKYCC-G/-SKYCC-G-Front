@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mx-[20px] mt-[25px]">
+    <div className="">
       <HomeHeader></HomeHeader>
       <HomeUpcoming></HomeUpcoming>
       <HomeOngoing></HomeOngoing>
