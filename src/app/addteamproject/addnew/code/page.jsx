@@ -20,12 +20,14 @@ export default function Code() {
       <div className="text-center">
         <div className="text-[14px] font-light mb-1">건축학개론 2조</div>
         <div className="mb-2">팀플 합류 코드</div>
-        <div className="flex justify-between w-full border-2 py-[12px] px-[20px] rounded-xl">
+        <div className="flex justify-between items-center w-full border-2 py-[12px] px-[20px] rounded-xl">
           <div className="w-[20px] font-semibold"></div>
           <div className="text-[30px] font-bold">
-            {Math.floor(Math.random() * 999)} {Math.floor(Math.random() * 999)}
+            {Math.floor(Math.random() * 899 + 100)} {Math.floor(Math.random() * 899 + 100)}
           </div>
-          <button className="">복사</button>
+          <button className="w-[56px] h-[27px] text-[#606060] bg-[#EDEDED] text-[11px] rounded-xl">
+            복사
+          </button>
         </div>
         <div className="mt-4 text-[15px] text-[#606060]">* 코드는 3시간 후 만료됩니다.</div>
       </div>

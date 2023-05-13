@@ -3,7 +3,7 @@ export default function HomeUpcoming() {
   const textColor = "#949191";
   return (
     <div className="mb-[36px]">
-      <h1 className="mb-[14px] font-bold text-[20px]">다가오는 일정</h1>
+      <h1 className="mb-[25px] font-bold text-[20px]">다가오는 일정</h1>
       <div className="flex items-center justify-start h-32 gap-6 px-2 py-[20px]  border-2 rounded-xl">
         <div style={{ backgroundColor: `${keyColor}` }} className="w-2 h-full rounded-xl"></div>
         <div style={{ color: `${keyColor}` }} className="mx-5 text-2xl">
