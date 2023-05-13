@@ -1,3 +1,4 @@
+import Link from "next/link";
 import HomeOngoingItem from "./HomeOngoingItem";
 
 export default function HomeOngoing() {
@@ -35,16 +36,18 @@ export default function HomeOngoing() {
   ];
   return (
     <div>
-      <h1 className="mb-[14px] font-bold text-[20px]">진행중인 팀플</h1>
+      <h1 className="mb-[25px] font-bold text-[20px]">진행중인 팀플</h1>
       {dummyData.map((data, i) => {
         return (
-          <HomeOngoingItem
-            key={i}
-            group={data.group}
-            firstText={data.firstText}
-            endDate={data.endDate}
-            unreadMeassage={data.unReadMessage}
-          />
+          <Link key={i} href="/chat">
+            <HomeOngoingItem
+              key={i}
+              group={data.group}
+              firstText={data.firstText}
+              endDate={data.endDate}
+              unreadMeassage={data.unReadMessage}
+            />
+          </Link>
         );
       })}
     </div>
