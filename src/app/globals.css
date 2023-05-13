@@ -28,5 +28,4 @@ body {
     rgb(var(--background-start-rgb)); */
   max-width: 640px;
   height: 100vh;
-  /* background-color: yellow; */
 }

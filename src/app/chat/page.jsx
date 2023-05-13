@@ -2,7 +2,7 @@ import ChatBox from "@/components/ChatBox";
 
 export default function Chat() {
   return (
-    <div id="chatbot-container">
+    <div>
       <div className="w-full pt-5">
         <ChatBox isMe={true}>아니</ChatBox>
         <ChatBox isMe={false}>뭐가</ChatBox>
