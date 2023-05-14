@@ -17,6 +17,8 @@
 } */
 html {
   background-color: #fff;
+  max-width: 640px;
+  height: calc(100%-50px);
 }
 body {
   /* color: rgb(var(--foreground-rgb));
@@ -26,6 +28,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-  max-width: 640px;
-  height: 100vh;
 }
