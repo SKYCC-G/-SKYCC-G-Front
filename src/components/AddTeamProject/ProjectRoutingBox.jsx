@@ -4,7 +4,7 @@ import { green } from "../ColorPallete";
 export default function ProjectRoutingBox(props) {
   const { link, title, buttonText, isBottom } = props;
 
-  const position = isBottom ? "absolute bottom-10 w-[calc(100%-40px)]" : "w-full";
+  const position = isBottom ? "absolute bottom-7 w-[calc(100%-40px)]" : "w-full";
 
   return (
     <div className={`h-[160px]`}>
