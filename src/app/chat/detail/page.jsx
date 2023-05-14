@@ -56,7 +56,7 @@ export default function PageDetail() {
         </svg>
       </div>
       <HomeUpcoming />
-      <ProjectRoutingBox link="/review" buttonText="팀플 끝내기!" isBottom={true} />
+      <ProjectRoutingBox link="/review" buttonText="팀플 끝내기!" isBottom={false} />
     </>
   );
 }
